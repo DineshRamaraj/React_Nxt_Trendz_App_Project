@@ -166,8 +166,14 @@
   width: 24px;
 }
 
+.card-link {
+  display: flex;
+  flex-direction: row;
+}
+
 .cart-count-badge {
   background-color: #bfdbfe;
+  /* background-color: #000000; */
   color: #0967d2;
   font-family: 'Roboto';
   font-size: 12px;
@@ -177,7 +183,9 @@
   padding-top: 2px;
   padding-right: 5px;
   padding-bottom: 2px;
-  margin-left: 8px;
+  margin-left: -5px;
+  margin-top: -10px;
+  align-self: flex-start;
 }
 
 @media screen and (min-width: 768px) {
